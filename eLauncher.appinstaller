@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller Uri="https://ajehar.github.io/elauncher/eLauncher.appinstaller"
+             Version="1.0.0.0"
+             xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+  <MainPackage Name="eLauncher"
+               Version="1.0.0.0"
+               Publisher="CN=ajehar"
+               ProcessorArchitecture="neutral"
+               Uri="https://ajehar.github.io/elauncher/eLauncher_sideload.msix" />
+  <UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="24" />
+  </UpdateSettings>
+</AppInstaller>
